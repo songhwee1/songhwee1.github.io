@@ -21,4 +21,4 @@ comments: true
 
 
 # 시작해보기
-![캐글 접속시 첫 화면](https://songhwee1.github.io//assets/img/dev/dataScience/kaggle_first_page.png "캐글 접속시 첫 화면")
+![캐글 접속시 첫 화면](https://songhwee1.github.io/assets/img/dev/dataScience/kaggle_first_page.png "캐글 접속시 첫 화면")

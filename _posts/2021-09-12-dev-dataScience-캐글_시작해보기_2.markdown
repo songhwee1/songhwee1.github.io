@@ -19,21 +19,21 @@ comments: true
 
 # 시작을 위한 준비
 
-먼저 Competitions 메뉴에서 'titanic' 이라고 검색하면 아래와 같은 결과가 나올텐데, 이중에서 Titanic - Machine Learning from Disaster 을 클릭해줍니다.
+먼저 **Competitions** 메뉴에서 **'titanic'** 이라고 검색하면 아래와 같은 결과가 나올텐데, 이중에서 **Titanic - Machine Learning from Disaster** 을 클릭해줍니다.
 
 ![titanic 검색](https://songhwee1.github.io/assets/img/dev/dataScience/kaggle_titanic_search.png "titanic 검색")
 
-이후, Join Competition 버튼을 클릭하여 참가 신청을 합니다.
+이후, **Join Competition** 버튼을 클릭하여 참가 신청을 합니다.
 
 ![titanic 메인](https://songhwee1.github.io/assets/img/dev/dataScience/kaggle_titanic_main.png "titanic 메인")
 
-이제 본격적으로 시작을 해볼텐데, 먼저 Data탭을 클릭한 후 하단의 Download All 버튼을 클릭하여 csv파일을 다운로드 받아줍니다.
+이제 본격적으로 시작을 해볼텐데, 먼저 **Data**탭을 클릭한 후 하단의 **Download All** 버튼을 클릭하여 csv파일을 다운로드 받아줍니다.
 
 ![titanic 다운](https://songhwee1.github.io/assets/img/dev/dataScience/kaggle_titanic_download_csv.png "titanic 다운")
 
-그럼 titanic 이라는 이름의 압축파일이 다운받아 지는데, 압축을 풀고 파일들을 작업할 폴더로 옮겨줍니다.
+그럼 **titanic** 이라는 이름의 압축파일이 다운받아 지는데, 압축을 풀고 파일들을 작업할 폴더로 옮겨줍니다.
 
-본격적으로 시작하기 전에, 이후 작업들은 Python으로 진행되기 때문에 개발환경을 미리 세팅해주시기 바랍니다.
+본격적으로 시작하기 전에, 이후 작업들은 **Python**으로 진행되기 때문에 개발환경을 미리 세팅해주시기 바랍니다.
 
 ## 데이터 불러오기
 

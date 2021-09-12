@@ -37,7 +37,7 @@ comments: true
 
 ## 데이터 불러오기
 
-먼저, numpy와 pandas라이브러리를 import하고, 다운로드받은 csv파일을 불러오고, 잘 불러와졌는지 **train.head()**를 통해 확인해봅니다.
+먼저, **numpy**와 **pandas**라이브러리를 import하고, 다운로드받은 csv파일을 불러오고, 잘 불러와졌는지 **train.head()**를 통해 확인해봅니다.
 
 ``` python
 import pandas as pd
@@ -58,7 +58,7 @@ train.head()
 |  3 |             4 |          1 |        1 | Futrelle, Mrs. Jacques Heath (Lily May Peel)        | female |    35 |       1 |       0 | 113803           | 53.1    | C123    | S          |
 |  4 |             5 |          0 |        3 | Allen, Mr. William Henry                            | male   |    35 |       0 |       0 | 373450           |  8.05   | nan     | S          |
 
-표를 보면 성별, 나이 등등 여러가지 특성이 있는데, 이중 의미를 바로 알기 힘든 것들에 대해서 알아보겠습니다.
+표를 보면 **성별**, **나이** 등등 여러가지 특성이 있는데, 이중 의미를 바로 알기 힘든 것들에 대해서 알아보겠습니다.
 
 **Survivied**: 생존 여부(0은 사망, 1은 생존; train 데이터에서만 제공)  
 **Pclass**: 사회경제적 지위(1에 가까울 수록 높음)  
@@ -67,7 +67,7 @@ train.head()
 
 ## Pie Chart
 
-특성별 분포를 보기 위해 Pie Chart를 그려볼텐데, 먼저 matplotlib, seaborn라이브러리를 불러옵니다.
+특성별 분포를 보기 위해 **Pie Chart**를 그려볼텐데, 먼저 ****matplotlib**, **seaborn**라이브러리를 불러옵니다.
 ```python
 import matplotlib.pyplot as plt
 %matplotlib inline
@@ -105,7 +105,7 @@ pie_chart('Sex')
 ```python
 pie_chart('Pclass')
 ```
-코드를 실행해보면, 사회경제적 지위가 높을수록(pclass 숫자가 작을수록) 생존 비율이 높았다는 것을 알 수 있습니다.
+코드를 실행해보면, 사회경제적 지위가 **높을수록**(pclass 숫자가 작을수록) 생존 비율이 높았다는 것을 알 수 있습니다.
 ![titanic 탑승자성비](https://songhwee1.github.io/assets/img/dev/dataScience/kaggle_titanic_pclass_output.png "titanic 탑승자성비")  
 ![titanic 생존자성비](https://songhwee1.github.io/assets/img/dev/dataScience/kaggle_titanic_pclass_output_1.png "titanic 생존자성비")
 

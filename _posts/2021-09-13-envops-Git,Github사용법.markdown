@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "Git, GitHub사용법 알아보기(1)"  
+title: "Git, GitHub사용법 알아보기"  
 subtitle: "Git, GitHub사용법"  
 categories: envops
 tags: 코드관리 협업 깃 깃허브 Git GitHub
@@ -8,7 +8,7 @@ comments: true
 ---  
 
 > Git, GitHub란 무엇인가?  
-> GitHub Repository 생성해보기
+> Git, GitHub사용법
 
 ---
 # Git은 뭐고 GitHub는 뭔가요?  
@@ -17,7 +17,7 @@ comments: true
 + 소스코드 수정에 따른 버전을 관리해주는 시스템  
 
 ### GitHub
-+ 클라우드 방식으로 관이되는 버전 관리 시스템(VCS)
++ 클라우드 방식으로 관리되는 버전 관리 시스템(VCS)
 + 자체 구축이 아닌 빌려쓰는 클라우드의 개념  
 
 간단하게 말해서 **Git**은 로컬 버전 관리 시스템을 운영하는 방식이고, **GitHub**는 깃허브에서 제공해주는 클라우드 서버를 이용한다는 것의 차이입니다.
@@ -49,7 +49,8 @@ git version
 **Public**과 **Private**를 선택할 수 있는데, **Public**을 선택하면 외부에서 내 코드를 볼 수 있고, **Private**를 선택하면 비공개 Repo가 생성됩니다.  
 설정을 완료했다면 하단의 **Create repository**버튼을 눌러 생성을 완료해줍니다.
 
-![github 레포생성완료](https://songhwee1.github.io/assets/img/envops/git_create_repo_!.png "github 레포생성완료")
+![github 레포생성완료](https://songhwee1.github.io/assets/img/envops/git_create_repo_1.png "github 레포생성완료")
 정상적으로 생성이 완료되면 위와 같은 화면을 볼 수 있습니다.
 
-다음 포스팅에서는 Git, Github의 다양한 기능들에 대해서 알아보도록 하겠습니다.
+## 내가 작성한 코드 업로드해보기
+내가 만든 Repo를 다운로드하거나, 업로드 하기 위해서 Git Bash를 사용해줍니다.

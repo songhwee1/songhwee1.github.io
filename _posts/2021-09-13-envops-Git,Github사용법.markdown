@@ -107,3 +107,7 @@ git commit -m "어떤 내용을 commit하였는지"
 git push origin main
 ```
 이후 GitHub에 접속해보면, Repository가 최신화 된 것을 확인할 수 있습니다.
+
+-----
+Git과 GitHub의 사용은 개발자에게 매우 중요합니다.  
+사용법을 잘 익혀둔다면 두고두고 큰 도움이 될거라고 생각합니다. 화이팅!
